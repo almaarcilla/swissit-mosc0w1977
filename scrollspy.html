@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/a7f7475171" crossorigin="anonymous"></script>
+
+    <style>
+        .table-of-contents{
+            border-left: 2px solid yellowgreen !important;
+
+        .table-of-contents{
+            border-left: 2px solid yellowgreen !important;
+            } 
+        }
+            
+        
+    </style>
+    <title>Scrollspy</title>
+</head>
+<body class="grey darken-4">
+    <div class="container">
+        <h1 class="grey-text text-lighten-2">Scrollspy</h1>
+        <!--Scrollspy-->
+        <div class="row">
+            <div class="col s12 m9 l10">
+                <div id="who" class="section scrollspy grey-text text-lighten-2">
+                    <h4>Who are We</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae soluta voluptas quibusdam voluptatum, placeat enim! Libero, facere neque aut perferendis corporis eum animi dicta, ducimus asperiores quo earum nulla perspiciatis laudantium deleniti ea dolorem consequuntur inventore dignissimos modi illo ipsum exercitationem corrupti, voluptatibus saepe. Repellendus deserunt similique illum fugit dolore.</p>
+                </div>
+                <div id="What" class="section scrollspy cyan-text text-lighten-2">
+                    <h4>What we Do</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae soluta voluptas quibusdam voluptatum, placeat enim! Libero, facere neque aut perferendis corporis eum animi dicta, ducimus asperiores quo earum nulla perspiciatis laudantium deleniti ea dolorem consequuntur inventore dignissimos modi illo ipsum exercitationem corrupti, voluptatibus saepe. Repellendus deserunt similique illum fugit dolore.</p>
+            </div>
+            <div id="Where" class="section scrollspy pink-text text-lighten-2">
+                <h4>Where are we</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae soluta voluptas quibusdam voluptatum, placeat enim! Libero, facere neque aut perferendis corporis eum animi dicta, ducimus asperiores quo earum nulla perspiciatis laudantium deleniti ea dolorem consequuntur inventore dignissimos modi illo ipsum exercitationem corrupti, voluptatibus saepe. Repellendus deserunt similique illum fugit dolore.</p>
+        </div>
+        </div>
+        <div class="col s12 m3 l2 hide-on-small-only">
+            <ul class="section table-of-contents pinned">
+                <li>
+                    <a href="#who">Who we Are</a>
+                </li>
+                <li>
+                    <a href="#what">What we Do</a>
+                </li>
+                <li>
+                    <a href="#where">Where are We</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!--jquery CDN-->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    
+     <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+         $('.scrollspy').scrollSpy();
+         });
+
+    </script>
+
+
+
+
+</body>
+</html>
